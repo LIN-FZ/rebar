@@ -20,7 +20,17 @@ Install the required dependencies using:
 
 pip install -r requirements.txt
 
-Project Structure . ├── models/ # YOLOv10 model configuration files (.yaml) ├── data/ # Dataset configuration files │ └── data.yaml ├── cfg/ │ └── hyp.yaml # Training hyperparameter configuration ├── train.py # Training script ├── val.py # Validation script ├── detect.py # Inference script ├── data.txt # Dataset download link └── README.md
+.
+├── models/                 # YOLOv10 model configuration files (.yaml)
+├── data/                   # Dataset configuration files
+│   └── data.yaml
+├── cfg/
+│   └── hyp.yaml             # Training hyperparameter configuration
+├── train.py                 # Training script
+├── val.py                   # Validation script
+├── detect.py                # Inference script
+├── data.txt                 # Dataset download link
+└── README.md
 
 Dataset Configuration
 
